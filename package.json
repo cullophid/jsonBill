@@ -1,0 +1,33 @@
+{
+  "name": "json-bill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "npm i && gulp build && gulp serve",
+    "build": "gulp build",
+    "test": "npm prune && gulp spec",
+    "live": "gulp watch",
+    "karma": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cullophid/jsonBill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cullophid/jsonBill/issues"
+  },
+  "homepage": "https://github.com/cullophid/jsonBill#readme",
+  "dependencies": {
+    "axios": "^0.5.4",
+    "babel": "^5.8.23",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "axios": "^0.5.4",
+    "ramda": "^0.17.1",
+    "react": "^0.13.3"
+  }
+}
